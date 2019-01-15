@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FirebaseRealtimeTest</string>
+
+    <string-array name="item">
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Folk</item>
+        <item>Sufi</item>
+    </string-array>
+</resources>

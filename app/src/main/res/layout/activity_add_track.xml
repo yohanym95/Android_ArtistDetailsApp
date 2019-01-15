@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTrackActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvArtistName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+    <EditText
+        android:id="@+id/etTrackName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Track Name"
+        android:inputType="textPersonName"
+        android:textSize="18sp" />
+
+    <SeekBar
+        android:id="@+id/seekBarRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="5"/>
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="Add" />
+
+    <TextView
+        android:id="@+id/tvTracks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tracks"
+        android:textAlignment="center"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"/>
+
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp" />
+</LinearLayout>
